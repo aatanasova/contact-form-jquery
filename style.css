@@ -1,0 +1,58 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-weight: 300;
+    font-family: 'Lato', 'Ariel', sans-serif;
+    font-size:20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(contact.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+
+.contact-form {
+    width:80%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width:100%;
+    padding:7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+
+*:focus{outline: none}
+
+h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align:left;
+    padding-top: 30%;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #cccbcb;
+
+}
