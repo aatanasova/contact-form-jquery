@@ -56,3 +56,24 @@ h2 {
     border-bottom: 1px solid #cccbcb;
 
 }
+
+.hidden {
+    display:none;
+    text-align: center;
+    font-size: 180%;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+.error  {
+    color: red;
+    margin-bottom: 5px;
+  }
+   
+  label.error {
+    display: inline;
+  }
+
+
